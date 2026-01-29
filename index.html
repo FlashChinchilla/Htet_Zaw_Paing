@@ -5,33 +5,45 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        
+
         <!-- 2. Primary SEO -->
-        <title>Htet Zaw Paing | Software Engineer, AI Researcher & Web Developer</title>
-        <meta name="description" content="Htet Zaw Paing is a Software Engineer, AI Researcher, and Web Developer based in Yangon. A graduate of Info Myanmar University and Edinburgh Napier University, specializing in intelligent systems and secure web technologies.">
-        <meta name="keywords" content="Htet Zaw Paing, Zaw Paing, Paing, Software Engineer, Web Developer, AI Researcher, Info Myanmar University, Edinburgh Napier University, Yangon, Myanmar, Full Stack Developer, Intelligent Systems, Network Security">
+        <title>Htet Zaw Paing | Software Engineer, AI Researcher & Web
+            Developer</title>
+        <meta name="description"
+            content="Htet Zaw Paing is a Software Engineer, AI Researcher, and Web Developer based in Yangon. A graduate of Info Myanmar University and Edinburgh Napier University, specializing in intelligent systems and secure web technologies.">
+        <meta name="keywords"
+            content="Htet Zaw Paing, Zaw Paing, Paing, Software Engineer, Web Developer, AI Researcher, Info Myanmar University, Edinburgh Napier University, Yangon, Myanmar, Full Stack Developer, Intelligent Systems, Network Security">
         <meta name="author" content="Htet Zaw Paing">
         <meta name="robots" content="index, follow">
-        <meta name="google-site-verification" content="QLsmq2rJPI3r_h97k3_my_YXifk42s9daSmGkruBRfk" />
+        <meta name="google-site-verification"
+            content="QLsmq2rJPI3r_h97k3_my_YXifk42s9daSmGkruBRfk" />
 
         <!-- 3. Open Graph / Social Media (Facebook, LinkedIn) -->
         <meta property="og:type" content="website">
-        <meta property="og:url" content="https://flashchinchilla.github.io/Htet_Zaw_Paing/">
-        <meta property="og:title" content="Htet Zaw Paing - Software Engineer & AI Researcher">
-        <meta property="og:description" content="Specializing in intelligent systems, AI research, and high-performance web architecture.">
-        <meta property="og:image" content="https://cdn.jsdelivr.net/gh/FlashChinchilla/images/seam.jpg">
+        <meta property="og:url"
+            content="https://flashchinchilla.github.io/Htet_Zaw_Paing/">
+        <meta property="og:title"
+            content="Htet Zaw Paing - Software Engineer & AI Researcher">
+        <meta property="og:description"
+            content="Specializing in intelligent systems, AI research, and high-performance web architecture.">
+        <meta property="og:image"
+            content="https://cdn.jsdelivr.net/gh/FlashChinchilla/images/seam.jpg">
 
         <!-- 4. Twitter Card -->
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="Htet Zaw Paing - Software Engineer & AI Researcher">
-        <meta name="twitter:description" content="Innovating from Yangon. Bridging technology and humanity through AI.">
-        <meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/FlashChinchilla/images/seam.jpg">
+        <meta name="twitter:title"
+            content="Htet Zaw Paing - Software Engineer & AI Researcher">
+        <meta name="twitter:description"
+            content="Innovating from Yangon. Bridging technology and humanity through AI.">
+        <meta name="twitter:image"
+            content="https://cdn.jsdelivr.net/gh/FlashChinchilla/images/seam.jpg">
 
         <!-- 5. Structured Data (JSON-LD) -->
         <script type="application/ld+json">
             {
               "@context": "https://schema.org",
               "@type": "Person",
+              "@id": "https://flashchinchilla.github.io/Htet_Zaw_Paing/#person",
               "name": "Htet Zaw Paing",
               "url": "https://flashchinchilla.github.io/Htet_Zaw_Paing/",
               "image": "https://cdn.jsdelivr.net/gh/FlashChinchilla/images/seam.jpg",
@@ -54,16 +66,34 @@
                   "name": "Edinburgh Napier University"
                 }
               ],
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Yangon",
+                "addressCountry": "MM"
+              },
+              "knowsAbout": [
+                "Artificial Intelligence",
+                "Machine Learning",
+                "Web Development",
+                "Software Engineering",
+                "Software Testing",
+                "Intelligent Systems"
+              ],
               "description": "Htet Zaw Paing is a Software Engineer, AI Researcher and Web Developer specializing in intelligent systems and web technologies."
             }
         </script>
 
         <!-- 6. Assets & Resources -->
-        <link rel="icon" href="https://cdn.jsdelivr.net/gh/FlashChinchilla/images/seam.jpg">
+        <link rel="canonical"
+            href="https://flashchinchilla.github.io/Htet_Zaw_Paing/">
+        <link rel="icon"
+            href="https://cdn.jsdelivr.net/gh/FlashChinchilla/images/seam.jpg">
         <script src="https://cdn.tailwindcss.com"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+            rel="stylesheet">
         <script src="https://unpkg.com/lucide@latest"></script>
 
         <style>
@@ -378,23 +408,38 @@
                 </div>
 
                 <!-- Mobile Hamburger Button -->
-                <button id="menu-toggle" class="md:hidden z-50 p-2 text-white/80 hover:text-white transition-colors">
+                <button id="menu-toggle"
+                    class="md:hidden z-50 p-2 text-white/80 hover:text-white transition-colors">
                     <i data-lucide="menu" class="w-5 h-5"></i>
                 </button>
             </div>
 
             <!-- Mobile Slide-out Menu -->
-            <div id="mobile-menu" class="fixed inset-0 z-[60] bg-[#050505]/98 backdrop-blur-3xl transform translate-x-full flex flex-col justify-center items-center gap-8">
-                <button id="menu-close" class="absolute top-8 right-8 p-2 text-white/50 hover:text-white transition-colors">
+            <div id="mobile-menu"
+                class="fixed inset-0 z-[60] bg-[#050505]/98 backdrop-blur-3xl transform translate-x-full flex flex-col justify-center items-center gap-8">
+                <button id="menu-close"
+                    class="absolute top-8 right-8 p-2 text-white/50 hover:text-white transition-colors">
                     <i data-lucide="x" class="w-8 h-8"></i>
                 </button>
 
-                <div class="flex flex-col items-center gap-6 text-sm font-bold tracking-[0.15em] uppercase">
-                    <a href="#home" class="mobile-nav-link text-white/60 hover:text-white transition-all" data-en="Home" data-mm="ပင်မ">Home</a>
-                    <a href="#about" class="mobile-nav-link text-white/60 hover:text-white transition-all" data-en="Identity" data-mm="ကိုယ်ရေးအကျဉ်း">Identity</a>
-                    <a href="#projects" class="mobile-nav-link text-white/60 hover:text-white transition-all" data-en="Projects" data-mm="စီမံကိန်းများ">Projects</a>
-                    <a href="#specialization" class="mobile-nav-link text-white/60 hover:text-white transition-all" data-en="Expertise" data-mm="ကျွမ်းကျင်မှု">Expertise</a>
-                    <a href="#news" class="mobile-nav-link text-white/60 hover:text-white transition-all" data-en="News" data-mm="သတင်းလွှာ">News</a>
+                <div
+                    class="flex flex-col items-center gap-6 text-sm font-bold tracking-[0.15em] uppercase">
+                    <a href="#home"
+                        class="mobile-nav-link text-white/60 hover:text-white transition-all"
+                        data-en="Home" data-mm="ပင်မ">Home</a>
+                    <a href="#about"
+                        class="mobile-nav-link text-white/60 hover:text-white transition-all"
+                        data-en="Identity" data-mm="ကိုယ်ရေးအကျဉ်း">Identity</a>
+                    <a href="#projects"
+                        class="mobile-nav-link text-white/60 hover:text-white transition-all"
+                        data-en="Projects" data-mm="စီမံကိန်းများ">Projects</a>
+                    <a href="#specialization"
+                        class="mobile-nav-link text-white/60 hover:text-white transition-all"
+                        data-en="Expertise"
+                        data-mm="ကျွမ်းကျင်မှု">Expertise</a>
+                    <a href="#news"
+                        class="mobile-nav-link text-white/60 hover:text-white transition-all"
+                        data-en="News" data-mm="သတင်းလွှာ">News</a>
                 </div>
 
                 <div class="w-12 h-[1px] bg-white/10"></div>
@@ -402,13 +447,15 @@
                 <div class="flex flex-col items-center gap-5">
                     <button id="mobile-lang-toggle"
                         class="px-6 py-3 glass-card bg-transparent rounded-full text-xs font-bold uppercase tracking-wider flex items-center gap-2">
-                        <i data-lucide="languages" class="w-4 h-4 text-white/50"></i>
+                        <i data-lucide="languages"
+                            class="w-4 h-4 text-white/50"></i>
                         <span id="mobile-lang-text">EN</span>
                     </button>
 
                     <a href="mailto:hzp.4aibotresearch@gmail.com"
                         class="px-8 py-3 bg-white text-black text-xs font-bold uppercase rounded-full shadow-[0_0_30px_rgba(255,255,255,0.2)]">
-                        <span data-en="Connect" data-mm="ဆက်သွယ်ရန်">Connect</span>
+                        <span data-en="Connect"
+                            data-mm="ဆက်သွယ်ရန်">Connect</span>
                     </a>
                 </div>
             </div>
@@ -417,7 +464,7 @@
         <!-- Hero Section -->
         <section id="home"
             class="min-h-screen flex flex-col items-center justify-center px-4 md:px-6 text-center pt-20 relative">
-            
+
             <!-- NEW: Vibrant Gradient Atmosphere -->
             <div class="hero-aurora"></div>
 
@@ -450,7 +497,8 @@
                 <h1
                     class="hero-title text-4xl sm:text-6xl md:text-7xl font-bold tracking-tight leading-[1.1]">
                     <span data-en="Engineering"
-                        data-mm="အင်ဂျင်နီယာ" class="text-white/90">Engineering</span> <br />
+                        data-mm="အင်ဂျင်နီယာ"
+                        class="text-white/90">Engineering</span> <br />
                     <span class="text-accent-gradient" data-en="The Future."
                         data-mm="အနာဂတ်ဆီသို့။">The Future.</span>
                 </h1>
@@ -476,7 +524,8 @@
                         class="btn-crystal w-full sm:w-auto flex justify-center items-center gap-3 glass-card bg-white/5 border-white/10 px-6 py-3.5 rounded-2xl">
                         <i data-lucide="phone"
                             class="w-4 h-4 text-white/70"></i>
-                        <span class="font-semibold text-sm">+95 9456751882</span>
+                        <span class="font-semibold text-sm">+95
+                            9456751882</span>
                     </a>
                     <a href="#about"
                         class="btn-crystal w-full sm:w-auto px-8 py-3.5 bg-blue-600 rounded-2xl font-semibold text-sm shadow-lg shadow-blue-500/20 text-center hover:bg-blue-500 text-white">
@@ -498,9 +547,11 @@
                             class="text-3xl md:text-5xl font-bold tracking-tight leading-none section-title"><span
                                 data-en="Identity"
                                 data-mm="ကိုယ်ရေးကိုယ်တာ">Identity</span> <span
-                                class="text-blue-400 italic font-serif" data-en="Profile"
+                                class="text-blue-400 italic font-serif"
+                                data-en="Profile"
                                 data-mm="အချက်အလက်">Profile</span></h2>
-                        <p class="text-gray-400 leading-relaxed text-base md:text-lg"
+                        <p
+                            class="text-gray-400 leading-relaxed text-base md:text-lg"
                             data-en="Born April 10, 2004. Highly motivated Software Engineer focused on bridging the gap between theoretical research and industrial application."
                             data-mm="ဧပြီလ ၁၀ ရက်၊ ၂၀၀၄ တွင် မွေးဖွားခဲ့သည်။ သီအိုရီဆိုင်ရာ သုတေသနနှင့် လက်တွေ့လုပ်ငန်းသုံး အသုံးချမှုကြား ဆက်စပ်ပေးရန် အားထုတ်နေသော ဆော့ဖ်ဝဲအင်ဂျင်နီယာတစ်ဦး ဖြစ်ပါသည်။">
                             Born April 10, 2004. Highly motivated Software
@@ -529,7 +580,8 @@
                         <div class="glass-card p-6 space-y-3 bg-white/[0.02]">
                             <div
                                 class="bg-purple-500/10 w-10 h-10 rounded-xl flex items-center justify-center text-purple-400 mb-2">
-                                <i data-lucide="graduation-cap" class="w-5 h-5"></i>
+                                <i data-lucide="graduation-cap"
+                                    class="w-5 h-5"></i>
                             </div>
                             <div>
                                 <p
@@ -546,7 +598,8 @@
                 </div>
 
                 <div class="relative">
-                    <div class="glass-card p-2 rounded-[32px] md:rounded-[40px] shadow-2xl bg-white/[0.01] border-white/5">
+                    <div
+                        class="glass-card p-2 rounded-[32px] md:rounded-[40px] shadow-2xl bg-white/[0.01] border-white/5">
                         <div
                             class="bg-gradient-to-br from-white/[0.02] to-transparent p-6 md:p-8 rounded-[28px] text-center">
                             <div
@@ -556,7 +609,9 @@
                                     alt="Htet Zaw Paing"
                                     class="w-full h-full object-cover transition-transform duration-700 hover:scale-105">
                             </div>
-                            <h3 class="text-xl md:text-2xl font-bold mb-1 tracking-tight">Htet Zaw
+                            <h3
+                                class="text-xl md:text-2xl font-bold mb-1 tracking-tight">Htet
+                                Zaw
                                 Paing</h3>
                             <p
                                 class="text-blue-400 font-bold text-[9px] tracking-[0.2em] uppercase"
@@ -572,7 +627,8 @@
         <!-- Academic Timeline -->
         <section class="py-20 md:py-32 px-4 md:px-6">
             <div class="max-w-4xl mx-auto">
-                <h2 class="text-3xl md:text-4xl font-bold mb-12 md:mb-16 tracking-tight section-title"
+                <h2
+                    class="text-3xl md:text-4xl font-bold mb-12 md:mb-16 tracking-tight section-title"
                     data-en="Academic Timeline"
                     data-mm="ပညာရေး ခရီးလမ်း">Academic Timeline</h2>
                 <div class="relative timeline-line space-y-12">
@@ -580,15 +636,19 @@
                     <div class="relative pl-12 md:pl-16 group">
                         <div
                             class="absolute left-0 top-1 w-8 h-8 rounded-full glass-card border border-blue-500/30 flex items-center justify-center z-10 bg-[#050505]">
-                            <div class="w-2.5 h-2.5 bg-blue-500 rounded-full shadow-[0_0_10px_rgba(59,130,246,0.5)]"></div>
+                            <div
+                                class="w-2.5 h-2.5 bg-blue-500 rounded-full shadow-[0_0_10px_rgba(59,130,246,0.5)]"></div>
                         </div>
-                        <div class="glass-card p-6 md:p-8 hover:bg-white/[0.02]">
+                        <div
+                            class="glass-card p-6 md:p-8 hover:bg-white/[0.02]">
                             <span
                                 class="text-blue-400 font-bold text-[10px] tracking-wider mb-2 block">CURRENT
                                 - 2026</span>
-                            <h3 class="text-xl md:text-2xl font-bold mb-2">Bsc (Hons) in
+                            <h3 class="text-xl md:text-2xl font-bold mb-2">Bsc
+                                (Hons) in
                                 Computing</h3>
-                            <p class="text-gray-400 text-sm md:text-base leading-relaxed"
+                            <p
+                                class="text-gray-400 text-sm md:text-base leading-relaxed"
                                 data-en="Advanced specialization in Software Architecture and Cloud Systems."
                                 data-mm="ဆော့ဖ်ဝဲဗိသုကာနှင့် ကလောက်ဒ်စနစ်များကို အဆင့်မြင့်လေ့လာသင်ယူနေပါသည်။">Advanced
                                 specialization in Software Architecture and
@@ -600,15 +660,19 @@
                     <div class="relative pl-12 md:pl-16 group">
                         <div
                             class="absolute left-0 top-1 w-8 h-8 rounded-full glass-card border border-purple-500/30 flex items-center justify-center z-10 bg-[#050505]">
-                            <div class="w-2.5 h-2.5 bg-purple-500 rounded-full"></div>
+                            <div
+                                class="w-2.5 h-2.5 bg-purple-500 rounded-full"></div>
                         </div>
-                        <div class="glass-card p-6 md:p-8 hover:bg-white/[0.02]">
+                        <div
+                            class="glass-card p-6 md:p-8 hover:bg-white/[0.02]">
                             <span
                                 class="text-purple-400 font-bold text-[10px] tracking-wider mb-2 block">2024
                                 - 2025</span>
-                            <h3 class="text-xl md:text-2xl font-bold mb-2">HND in
+                            <h3 class="text-xl md:text-2xl font-bold mb-2">HND
+                                in
                                 Computing</h3>
-                            <p class="text-gray-400 text-sm md:text-base leading-relaxed"
+                            <p
+                                class="text-gray-400 text-sm md:text-base leading-relaxed"
                                 data-en="Higher National Diploma focusing on Software Development and Data Structures."
                                 data-mm="ဆော့ဖ်ဝဲ ဖွံ့ဖြိုးတိုးတက်မှုနှင့် ဒေတာတည်ဆောက်ပုံများကို အထူးပြုသင်ယူခဲ့သည်။">Higher
                                 National Diploma focusing on Software
@@ -620,15 +684,19 @@
                     <div class="relative pl-12 md:pl-16 group">
                         <div
                             class="absolute left-0 top-1 w-8 h-8 rounded-full glass-card border border-cyan-500/30 flex items-center justify-center z-10 bg-[#050505]">
-                            <div class="w-2.5 h-2.5 bg-cyan-500 rounded-full"></div>
+                            <div
+                                class="w-2.5 h-2.5 bg-cyan-500 rounded-full"></div>
                         </div>
-                        <div class="glass-card p-6 md:p-8 hover:bg-white/[0.02]">
+                        <div
+                            class="glass-card p-6 md:p-8 hover:bg-white/[0.02]">
                             <span
                                 class="text-cyan-400 font-bold text-[10px] tracking-wider mb-2 block">2023
                                 - 2024</span>
-                            <h3 class="text-xl md:text-2xl font-bold mb-2">HNC in
+                            <h3 class="text-xl md:text-2xl font-bold mb-2">HNC
+                                in
                                 Computing</h3>
-                            <p class="text-gray-400 text-sm md:text-base leading-relaxed"
+                            <p
+                                class="text-gray-400 text-sm md:text-base leading-relaxed"
                                 data-en="Higher National Certificate covering fundamental computing principles."
                                 data-mm="ကွန်ပျူတာသိပ္ပံဆိုင်ရာ အခြေခံသဘောတရားများကို သင်ယူခဲ့သည်။">Higher
                                 National Certificate covering fundamental
@@ -640,14 +708,17 @@
                     <div class="relative pl-12 md:pl-16 group">
                         <div
                             class="absolute left-0 top-1 w-8 h-8 rounded-full glass-card border border-white/10 flex items-center justify-center z-10 bg-[#050505]">
-                            <div class="w-2.5 h-2.5 bg-gray-500 rounded-full"></div>
+                            <div
+                                class="w-2.5 h-2.5 bg-gray-500 rounded-full"></div>
                         </div>
-                        <div class="glass-card p-6 md:p-8 hover:bg-white/[0.02]">
+                        <div
+                            class="glass-card p-6 md:p-8 hover:bg-white/[0.02]">
                             <span
                                 class="text-gray-500 font-bold text-[10px] tracking-wider mb-2 block">2023</span>
                             <h3
                                 class="text-xl md:text-2xl font-bold mb-2">Pre-University</h3>
-                            <p class="text-gray-400 text-sm md:text-base leading-relaxed"
+                            <p
+                                class="text-gray-400 text-sm md:text-base leading-relaxed"
                                 data-en="Preparatory academic bridge for Advanced Computing Science."
                                 data-mm="အဆင့်မြင့် ကွန်ပျူတာသိပ္ပံ မစတင်မီ အခြေခံပြင်ဆင်မှုများ ပြုလုပ်ခဲ့သည်။">Preparatory
                                 academic bridge for Advanced Computing
@@ -659,113 +730,119 @@
         </section>
 
         <!-- Innovative Deployments -->
-       <section id="projects" class="py-20 md:py-32 px-4 md:px-6">
-        <div class="max-w-7xl mx-auto">
-            <div class="mb-12 md:mb-20">
-                <h2 class="text-4xl md:text-6xl font-black mb-4 md:mb-6 tracking-tight"><span
-                        data-en="Innovative"
-                        data-mm="ဆန်းသစ်သော">Innovative</span> <span
-                        class="text-blue-500" data-en="Deployments"
-                        data-mm="ဖန်တီးမှုများ">Deployments</span></h2>
-                <p class="text-gray-500 text-lg md:text-xl max-w-2xl"
-                    data-en="A curation of high-impact technical architectures developed during my academic and independent research tenures."
-                    data-mm="ကျွန်ုပ်၏ ပညာရေးနှင့် သီးခြားသုတေသနကာလများအတွင်း တည်ဆောက်ခဲ့သော အဆင့်မြင့် စနစ်များ ဖြစ်ပါသည်။">A
-                    curation of high-impact technical architectures
-                    developed during my academic and independent research
-                    tenures.</p>
-            </div>
+        <section id="projects" class="py-20 md:py-32 px-4 md:px-6">
+            <div class="max-w-7xl mx-auto">
+                <div class="mb-12 md:mb-20">
+                    <h2
+                        class="text-4xl md:text-6xl font-black mb-4 md:mb-6 tracking-tight"><span
+                            data-en="Innovative"
+                            data-mm="ဆန်းသစ်သော">Innovative</span> <span
+                            class="text-blue-500" data-en="Deployments"
+                            data-mm="ဖန်တီးမှုများ">Deployments</span></h2>
+                    <p class="text-gray-500 text-lg md:text-xl max-w-2xl"
+                        data-en="A curation of high-impact technical architectures developed during my academic and independent research tenures."
+                        data-mm="ကျွန်ုပ်၏ ပညာရေးနှင့် သီးခြားသုတေသနကာလများအတွင်း တည်ဆောက်ခဲ့သော အဆင့်မြင့် စနစ်များ ဖြစ်ပါသည်။">A
+                        curation of high-impact technical architectures
+                        developed during my academic and independent research
+                        tenures.</p>
+                </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
-                <!-- Project 1: Secora -->
-                <div class="glass-card overflow-hidden group">
-                    <div class="h-60 md:h-80 relative overflow-hidden">
-                        <img
-                            src="https://cdn.jsdelivr.net/gh/FlashChinchilla/images/secora.png"
-                            class="w-full h-full object-cover group-hover:scale-105 transition-all duration-1000">
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
-                    </div>
-                    <div class="p-6 md:p-12 -mt-16 md:-mt-24 relative z-10">
-                        <div class="flex justify-between items-center mb-4 md:mb-6">
-                            <h3
-                                class="text-2xl md:text-4xl font-black tracking-tight">Secora</h3>
-                            <span
-                                class="px-3 py-1.5 md:px-5 md:py-2 glass-refractive text-blue-400 text-[8px] md:text-[10px] font-black uppercase rounded-full tracking-widest">E-commerce</span>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
+                    <!-- Project 1: Secora -->
+                    <div class="glass-card overflow-hidden group">
+                        <div class="h-60 md:h-80 relative overflow-hidden">
+                            <img
+                                src="https://cdn.jsdelivr.net/gh/FlashChinchilla/images/secora.png"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-all duration-1000">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
                         </div>
-                        <p
-                            class="text-gray-400 leading-relaxed mb-6 md:mb-8 text-base md:text-lg"
-                            data-en="Premium cybersecurity marketplace offering specialized hardware, software, and 24/7 elite services including penetration testing and security monitoring."
-                            data-mm="ဆော့ဖ်ဝဲနှင့် ဟာ့ဒ်ဝဲ ဆိုင်ဘာလုံခြုံရေး ပစ္စည်းများ ရောင်းချသော စနစ်ဖြစ်ပြီး Penetration Testing နှင့် Security Monitoring ဝန်ဆောင်မှုများကို ၂၄ နာရီ ပေးဆောင်ပါသည်။">Premium
-                            cybersecurity marketplace offering specialized
-                            hardware, software, and 24/7 elite services
-                            including penetration testing and security
-                            monitoring.</p>
-                        <div class="flex flex-wrap gap-3 md:gap-6">
-                            <span
-                                class="text-[10px] md:text-[11px] font-bold text-blue-500/80 uppercase">PHP</span>
-                            <span
-                                class="text-[10px] md:text-[11px] font-bold text-blue-500/80 uppercase">Node.js</span>
-                            <span
-                                class="text-[10px] md:text-[11px] font-bold text-blue-500/80 uppercase">MySQL</span>
+                        <div class="p-6 md:p-12 -mt-16 md:-mt-24 relative z-10">
+                            <div
+                                class="flex justify-between items-center mb-4 md:mb-6">
+                                <h3
+                                    class="text-2xl md:text-4xl font-black tracking-tight">Secora</h3>
+                                <span
+                                    class="px-3 py-1.5 md:px-5 md:py-2 glass-refractive text-blue-400 text-[8px] md:text-[10px] font-black uppercase rounded-full tracking-widest">E-commerce</span>
+                            </div>
+                            <p
+                                class="text-gray-400 leading-relaxed mb-6 md:mb-8 text-base md:text-lg"
+                                data-en="Premium cybersecurity marketplace offering specialized hardware, software, and 24/7 elite services including penetration testing and security monitoring."
+                                data-mm="ဆော့ဖ်ဝဲနှင့် ဟာ့ဒ်ဝဲ ဆိုင်ဘာလုံခြုံရေး ပစ္စည်းများ ရောင်းချသော စနစ်ဖြစ်ပြီး Penetration Testing နှင့် Security Monitoring ဝန်ဆောင်မှုများကို ၂၄ နာရီ ပေးဆောင်ပါသည်။">Premium
+                                cybersecurity marketplace offering specialized
+                                hardware, software, and 24/7 elite services
+                                including penetration testing and security
+                                monitoring.</p>
+                            <div class="flex flex-wrap gap-3 md:gap-6">
+                                <span
+                                    class="text-[10px] md:text-[11px] font-bold text-blue-500/80 uppercase">PHP</span>
+                                <span
+                                    class="text-[10px] md:text-[11px] font-bold text-blue-500/80 uppercase">Node.js</span>
+                                <span
+                                    class="text-[10px] md:text-[11px] font-bold text-blue-500/80 uppercase">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Sensori -->
+                    <div class="glass-card overflow-hidden group">
+                        <div class="h-60 md:h-80 relative overflow-hidden">
+                            <img
+                                src="https://cdn.jsdelivr.net/gh/FlashChinchilla/images/sensori.png"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-all duration-1000">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
+                        </div>
+                        <div class="p-6 md:p-12 -mt-16 md:-mt-24 relative z-10">
+                            <div
+                                class="flex justify-between items-center mb-4 md:mb-6">
+                                <h3
+                                    class="text-2xl md:text-4xl font-black tracking-tight">Sensori</h3>
+                                <span
+                                    class="px-3 py-1.5 md:px-5 md:py-2 glass-refractive text-purple-400 text-[8px] md:text-[10px] font-black uppercase rounded-full tracking-widest">AI/Research</span>
+                            </div>
+                            <p
+                                class="text-gray-400 leading-relaxed mb-6 md:mb-8 text-base md:text-lg"
+                                data-en="Real-time facial emotion analysis system. Utilizing deep learning to detect states to provide personalized music recommendations 24/7."
+                                data-mm="အသုံးပြုသူ၏ မျက်နှာကို ခွဲခြမ်းစိတ်ဖြာပြီး ပျော်ရွှင်ခြင်း၊ ဝမ်းနည်းခြင်း စသည့် စိတ်ခံစားမှုများပေါ် မူတည်ကာ သီချင်းများ အကြံပြုပေးသော Real-time AI စနစ် ဖြစ်ပါသည်။">Real-time
+                                facial emotion analysis system. Utilizing deep
+                                learning to detect states to provide
+                                personalized music recommendations 24/7.</p>
+                            <div class="flex flex-wrap gap-3 md:gap-6">
+                                <span
+                                    class="text-[10px] md:text-[11px] font-bold text-purple-500/80 uppercase">Python</span>
+                                <span
+                                    class="text-[10px] md:text-[11px] font-bold text-purple-500/80 uppercase">Tensorflow</span>
+                                <span
+                                    class="text-[10px] md:text-[11px] font-bold text-purple-500/80 uppercase">OpenCV</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- Project 2: Sensori -->
-                <div class="glass-card overflow-hidden group">
-                    <div class="h-60 md:h-80 relative overflow-hidden">
-                        <img
-                            src="https://cdn.jsdelivr.net/gh/FlashChinchilla/images/sensori.png"
-                            class="w-full h-full object-cover group-hover:scale-105 transition-all duration-1000">
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
-                    </div>
-                    <div class="p-6 md:p-12 -mt-16 md:-mt-24 relative z-10">
-                        <div class="flex justify-between items-center mb-4 md:mb-6">
-                            <h3
-                                class="text-2xl md:text-4xl font-black tracking-tight">Sensori</h3>
-                            <span
-                                class="px-3 py-1.5 md:px-5 md:py-2 glass-refractive text-purple-400 text-[8px] md:text-[10px] font-black uppercase rounded-full tracking-widest">AI/Research</span>
-                        </div>
-                        <p
-                            class="text-gray-400 leading-relaxed mb-6 md:mb-8 text-base md:text-lg"
-                            data-en="Real-time facial emotion analysis system. Utilizing deep learning to detect states to provide personalized music recommendations 24/7."
-                            data-mm="အသုံးပြုသူ၏ မျက်နှာကို ခွဲခြမ်းစိတ်ဖြာပြီး ပျော်ရွှင်ခြင်း၊ ဝမ်းနည်းခြင်း စသည့် စိတ်ခံစားမှုများပေါ် မူတည်ကာ သီချင်းများ အကြံပြုပေးသော Real-time AI စနစ် ဖြစ်ပါသည်။">Real-time
-                            facial emotion analysis system. Utilizing deep
-                            learning to detect states to provide
-                            personalized music recommendations 24/7.</p>
-                        <div class="flex flex-wrap gap-3 md:gap-6">
-                            <span
-                                class="text-[10px] md:text-[11px] font-bold text-purple-500/80 uppercase">Python</span>
-                            <span
-                                class="text-[10px] md:text-[11px] font-bold text-purple-500/80 uppercase">Tensorflow</span>
-                            <span
-                                class="text-[10px] md:text-[11px] font-bold text-purple-500/80 uppercase">OpenCV</span>
-                        </div>
-                    </div>
-                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
         <!-- Specialized Expertise -->
         <section id="specialization" class="py-20 md:py-32 px-4 md:px-6">
             <div
                 class="max-w-6xl mx-auto flex flex-col lg:flex-row gap-12 md:gap-20 items-center">
                 <div class="lg:w-1/2 space-y-8">
-                    <h2 class="text-3xl md:text-5xl font-bold tracking-tight section-title"><span
+                    <h2
+                        class="text-3xl md:text-5xl font-bold tracking-tight section-title"><span
                             data-en="SPECIALIZED IN"
                             data-mm="ကျွမ်းကျင်မှု">SPECIALIZED
                             IN</span><br /><span class="text-blue-500">SOFTWARE
                             ENGINEERING</span></h2>
-                    <p class="text-base md:text-lg text-gray-500 leading-relaxed font-medium"
+                    <p
+                        class="text-base md:text-lg text-gray-500 leading-relaxed font-medium"
                         data-en="Architecting high-performance systems with a focus on security and artificial intelligence."
                         data-mm="လုံခြုံရေးနှင့် AI ကို အခြေခံထားသော စွမ်းဆောင်ရည်မြင့် စနစ်များကို တည်ဆောက်လျက်ရှိပါသည်။">Architecting
                         high-performance systems with a focus on security and
                         artificial intelligence.</p>
 
                     <div class="grid grid-cols-2 gap-4">
-                        <div class="glass-card p-6 md:p-8 flex flex-col gap-4 group hover:bg-white/[0.02]">
+                        <div
+                            class="glass-card p-6 md:p-8 flex flex-col gap-4 group hover:bg-white/[0.02]">
                             <div
                                 class="w-12 h-12 bg-blue-500/10 rounded-2xl flex items-center justify-center text-blue-500 group-hover:bg-blue-500 group-hover:text-white transition-all duration-300">
                                 <i data-lucide="shield-check"
@@ -775,7 +852,8 @@
                                 class="font-bold text-[10px] uppercase tracking-[0.2em] text-white/80">Security
                                 Systems</span>
                         </div>
-                        <div class="glass-card p-6 md:p-8 flex flex-col gap-4 group hover:bg-white/[0.02]">
+                        <div
+                            class="glass-card p-6 md:p-8 flex flex-col gap-4 group hover:bg-white/[0.02]">
                             <div
                                 class="w-12 h-12 bg-purple-500/10 rounded-2xl flex items-center justify-center text-purple-500 group-hover:bg-purple-500 group-hover:text-white transition-all duration-300">
                                 <i data-lucide="cpu" class="w-6 h-6"></i>
@@ -796,7 +874,8 @@
                         </div>
                         <div
                             class="h-1.5 w-full bg-white/5 rounded-full overflow-hidden">
-                            <div class="h-full bg-blue-600 rounded-full shadow-[0_0_10px_rgba(37,99,235,0.4)]"
+                            <div
+                                class="h-full bg-blue-600 rounded-full shadow-[0_0_10px_rgba(37,99,235,0.4)]"
                                 style="width: 98%"></div>
                         </div>
                     </div>
@@ -808,7 +887,8 @@
                         </div>
                         <div
                             class="h-1.5 w-full bg-white/5 rounded-full overflow-hidden">
-                            <div class="h-full bg-purple-600 rounded-full shadow-[0_0_10px_rgba(147,51,234,0.4)]"
+                            <div
+                                class="h-full bg-purple-600 rounded-full shadow-[0_0_10px_rgba(147,51,234,0.4)]"
                                 style="width: 92%"></div>
                         </div>
                     </div>
@@ -820,7 +900,8 @@
                         </div>
                         <div
                             class="h-1.5 w-full bg-white/5 rounded-full overflow-hidden">
-                            <div class="h-full bg-cyan-600 rounded-full shadow-[0_0_10px_rgba(8,145,178,0.4)]"
+                            <div
+                                class="h-full bg-cyan-600 rounded-full shadow-[0_0_10px_rgba(8,145,178,0.4)]"
                                 style="width: 85%"></div>
                         </div>
                     </div>
@@ -840,7 +921,8 @@
                                 &</span> <span class="text-blue-500"
                                 data-en="Insights"
                                 data-mm="အမြင်များ">Insights</span></h2>
-                        <p class="text-gray-500 text-base md:text-lg font-medium"
+                        <p
+                            class="text-gray-500 text-base md:text-lg font-medium"
                             data-en="Latest breakthroughs from my research lab."
                             data-mm="နောက်ဆုံးရ သုတေသနနှင့် နည်းပညာ သတင်းများ။">Latest
                             breakthroughs from my research lab.</p>
@@ -848,10 +930,12 @@
                     <div class="flex gap-3">
                         <button id="news-prev"
                             class="ios-glass-btn w-10 h-10 rounded-full hover:bg-white/10"><i
-                                data-lucide="chevron-left" class="w-5 h-5"></i></button>
+                                data-lucide="chevron-left"
+                                class="w-5 h-5"></i></button>
                         <button id="news-next"
                             class="ios-glass-btn w-10 h-10 rounded-full hover:bg-white/10"><i
-                                data-lucide="chevron-right" class="w-5 h-5"></i></button>
+                                data-lucide="chevron-right"
+                                class="w-5 h-5"></i></button>
                     </div>
                 </div>
 
@@ -880,7 +964,8 @@
                                     and managed security services.</p>
                             </div>
                             <div class="p-6 md:p-8 pt-0">
-                                <a href="https://storage2.me-qr.com/pdf/9921b7d3-a0a8-477c-8b71-6eb9dac9e21c.pdf"
+                                <a
+                                    href="https://storage2.me-qr.com/pdf/9921b7d3-a0a8-477c-8b71-6eb9dac9e21c.pdf"
                                     class="ios-glass-btn w-full py-3.5 text-[9px] font-bold uppercase tracking-widest rounded-xl hover:bg-blue-600 hover:border-blue-500"
                                     target="_blank">Read
                                     Full Article</a>
@@ -896,14 +981,22 @@
                                 <h3
                                     class="text-xl font-bold leading-tight group-hover:text-purple-400 transition-colors"
                                     data-en="MTS Network Security Project"
-                                    data-mm="MTS ကွန်ရက်လုံခြုံရေးစီမံကိန်း">MTS Network Security Project</h3>
+                                    data-mm="MTS ကွန်ရက်လုံခြုံရေးစီမံကိန်း">MTS
+                                    Network Security Project</h3>
                                 <p class="text-gray-400 leading-relaxed text-sm"
                                     data-en="This project successfully implemented a secure network for Myanmar Tech Solutions, protecting data and enabling safe branch communication with firewalls, IDS, VPNs, and VLAN switches."
-                                    data-mm="ဤ project သည် Myanmar Tech Solutions အတွက် လုံခြုံသော network ကို အောင်မြင်စွာ တည်ဆောက်ပြီး ဒေတာကို ကာကွယ်ကာ ရုံးခွဲများအကြား လုံခြုံစွာ ဆက်သွယ်နိုင်စေသည်။ Firewalls, IDS, VPNs, နှင့် VLAN switches များကို အသုံးပြုထားသည်။">This project successfully implemented a secure network for Myanmar Tech Solutions, protecting data and enabling safe branch communication with firewalls, IDS, VPNs, and VLAN switches.</p>
+                                    data-mm="ဤ project သည် Myanmar Tech Solutions အတွက် လုံခြုံသော network ကို အောင်မြင်စွာ တည်ဆောက်ပြီး ဒေတာကို ကာကွယ်ကာ ရုံးခွဲများအကြား လုံခြုံစွာ ဆက်သွယ်နိုင်စေသည်။ Firewalls, IDS, VPNs, နှင့် VLAN switches များကို အသုံးပြုထားသည်။">This
+                                    project successfully implemented a secure
+                                    network for Myanmar Tech Solutions,
+                                    protecting data and enabling safe branch
+                                    communication with firewalls, IDS, VPNs, and
+                                    VLAN switches.</p>
                             </div>
                             <div class="p-6 md:p-8 pt-0">
-                                <a href="https://storage2.me-qr.com/pdf/1fb75d60-aa68-4d28-bd3b-161540f382d1.pdf"
-                                    class="ios-glass-btn w-full py-3.5 text-[9px] font-bold uppercase tracking-widest rounded-xl hover:bg-purple-600 hover:border-purple-500" target="_blank">Read
+                                <a
+                                    href="https://storage2.me-qr.com/pdf/1fb75d60-aa68-4d28-bd3b-161540f382d1.pdf"
+                                    class="ios-glass-btn w-full py-3.5 text-[9px] font-bold uppercase tracking-widest rounded-xl hover:bg-purple-600 hover:border-purple-500"
+                                    target="_blank">Read
                                     Full Article</a>
                             </div>
                         </div>
@@ -921,11 +1014,18 @@
                                     Research Project</h3>
                                 <p class="text-gray-400 leading-relaxed text-sm"
                                     data-en="An AI-based system designed to detect user emotions such as happiness, sadness, and anger, and provide personalized music and playlist recommendations based on the detected emotional state."
-                                    data-mm="အသုံးပြုသူ၏ ပျော်ရွှင်မှု၊ ဝမ်းနည်းမှု၊ ဒေါသ စသည်တို့ကို AI နည်းပညာဖြင့် သိရှိနိုင်ပြီး၊ ခွဲခြားသိရှိထားသည့် စိတ်ခံစားမှုအခြေခံ၍ သင့်လျော်သည့် သီချင်းများနှင့် playlist များကို ကိုယ်ပိုင်အကြံပြုနိုင်သည့် စနစ်တစ်ခု ဖြစ်သည်။">An AI-based system designed to detect user emotions such as happiness, sadness, and anger, and provide personalized music and playlist recommendations based on the detected emotional state.</p>
+                                    data-mm="အသုံးပြုသူ၏ ပျော်ရွှင်မှု၊ ဝမ်းနည်းမှု၊ ဒေါသ စသည်တို့ကို AI နည်းပညာဖြင့် သိရှိနိုင်ပြီး၊ ခွဲခြားသိရှိထားသည့် စိတ်ခံစားမှုအခြေခံ၍ သင့်လျော်သည့် သီချင်းများနှင့် playlist များကို ကိုယ်ပိုင်အကြံပြုနိုင်သည့် စနစ်တစ်ခု ဖြစ်သည်။">An
+                                    AI-based system designed to detect user
+                                    emotions such as happiness, sadness, and
+                                    anger, and provide personalized music and
+                                    playlist recommendations based on the
+                                    detected emotional state.</p>
                             </div>
                             <div class="p-6 md:p-8 pt-0">
-                                <a href="https://storage2.me-qr.com/pdf/fb37eb1b-6038-49e7-bb3a-7707338831d6.pdf"
-                                    class="ios-glass-btn w-full py-3.5 text-[9px] font-bold uppercase tracking-widest rounded-xl hover:bg-blue-600 hover:border-blue-500" target="_blank">Read
+                                <a
+                                    href="https://storage2.me-qr.com/pdf/fb37eb1b-6038-49e7-bb3a-7707338831d6.pdf"
+                                    class="ios-glass-btn w-full py-3.5 text-[9px] font-bold uppercase tracking-widest rounded-xl hover:bg-blue-600 hover:border-blue-500"
+                                    target="_blank">Read
                                     Full Article</a>
                             </div>
                         </div>
@@ -939,17 +1039,25 @@
                                 <h3
                                     class="text-xl font-bold leading-tight group-hover:text-blue-400 transition-colors"
                                     data-en="Machine Learning"
-                                    data-mm="Machine Learning">Machine Learning</h3>
+                                    data-mm="Machine Learning">Machine
+                                    Learning</h3>
                                 <p class="text-gray-400 leading-relaxed text-sm"
                                     data-en="Machine learning is a core branch of artificial intelligence that enables systems to learn from data and make predictions or decisions without explicit programming.
                                     Credit: Dave Bergmann, Senior Staff Writer – AI Models, IBM Think."
                                     data-mm="Machine Learning သည် ဒေတာများမှ သင်ယူနိုင်ပြီး လူက တိတိကျကျ programming မလုပ်ဘဲ ဆုံးဖြတ်ချက်နှင့် ခန့်မှန်းချက်များကို ပြုလုပ်နိုင်သော AI နည်းပညာ ဖြစ်သည်။
-                                    Credit: Dave Bergmann, Senior Staff Writer – AI Models, IBM Think.">Machine learning is a core branch of artificial intelligence that enables systems to learn from data and make predictions or decisions without explicit programming. <br>
-                                    Credit: Dave Bergmann, Senior Staff Writer – AI Models, IBM Think.</p>
+                                    Credit: Dave Bergmann, Senior Staff Writer – AI Models, IBM Think.">Machine
+                                    learning is a core branch of artificial
+                                    intelligence that enables systems to learn
+                                    from data and make predictions or decisions
+                                    without explicit programming. <br>
+                                    Credit: Dave Bergmann, Senior Staff Writer –
+                                    AI Models, IBM Think.</p>
                             </div>
                             <div class="p-6 md:p-8 pt-0">
-                                <a href="https://www.ibm.com/think/topics/machine-learning"
-                                    class="ios-glass-btn w-full py-3.5 text-[9px] font-bold uppercase tracking-widest rounded-xl hover:bg-blue-600 hover:border-blue-500" target="_blank">Read
+                                <a
+                                    href="https://www.ibm.com/think/topics/machine-learning"
+                                    class="ios-glass-btn w-full py-3.5 text-[9px] font-bold uppercase tracking-widest rounded-xl hover:bg-blue-600 hover:border-blue-500"
+                                    target="_blank">Read
                                     Full Article</a>
                             </div>
                         </div>
